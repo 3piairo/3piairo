@@ -1,0 +1,19 @@
+:root{
+  --bg:#ffffff;
+  --accent:#0b74de;
+  --muted:#666;
+  --max-width:900px;
+  --pad:18px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,system-ui,Arial,sans-serif;margin:0;color:#222;background:var(--bg);line-height:1.5}
+.wrap{max-width:var(--max-width);margin:0 auto;padding:24px}
+.site-header{background:#f7fbff;border-bottom:1px solid #eef4fb;padding:20px 0}
+.brand{margin:0;font-size:1.6rem;color:var(--accent)}
+.tagline{margin:6px 0 0;color:var(--muted)}
+.hero h2{margin-top:6px}
+.services ul{padding-left:20px}
+.services li{margin:8px 0}
+.contact a{color:var(--accent);text-decoration:none}
+.site-footer{border-top:1px solid #eee;padding:16px 0;margin-top:24px;background:#fafafa;color:var(--muted)}
+@media (min-width:800px){.hero{display:flex;gap:28px}.hero p{flex:1}}

@@ -1,4 +1,4 @@
-# 3πairo — Simple Website
+# 3piairo — Simple Website
 
 Open `index.html` in your browser to preview the site locally. This is a static, single-page site with basic styles.
 
